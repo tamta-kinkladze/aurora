@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head-pic {
+  height: 1024px;
+  width: 100%;
+  position: relative;
+}
+.nav-bar {
+  position: absolute;
+  top: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 200px;
+}
+.title {
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: vogue;
+  font-style: normal;
+  line-height: normal;
+}
+.buttons {
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: none;
+}
+.button-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.button-wrap1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main-title {
+  position: absolute;
+  width: 100%px;
+  height: 260px;
+  top: 50%;
+  left: 5%;
+}
+.text {
+  color: white;
+  font-family: Vogue;
+  font-size: 288px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button1 {
+  position: absolute;
+  top: 135%;
+  left: 600px;
+  right: 573px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.button2 {
+  display: flex;
+  height: 41px;
+  padding: 18px 23px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: rgba(2, 2, 2, 0.1);
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.caption-cont {
+  position: absolute;
+  left: 437px;
+  right: 426px;
+  top: 145%;
+  display: flex;
+  justify-content: center;
+  margin: 36px;
+}
+.caption {
+  color: #d2cdcd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.info-container {
+  background-color: black;
+  width: 100%;
+  height: 1024px;
+}
+.caption1 {
+  color: white;
+  font-family: Vogue;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 106px;
+}
+.info-container {
+}
+.caption-cont1 {
+  display: flex;
+  justify-content: center;
+
+}
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  width: auto 387px;
+  height: auto 516px;
+  gap:20px;
+  color:white;
+}
